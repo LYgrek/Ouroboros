@@ -1,0 +1,91 @@
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Contenus des sections */
+.content {
+    max-width: 800px;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+/* Couleurs différentes pour chaque section */
+.section-1 {
+    background-color: #264653;
+}
+
+.section-2 {
+    background-color: #2a9d8f;
+}
+
+.section-3 {
+    background-color: #e9c46a;
+    color: #333;
+}
+
+.section-4 {
+    background-color: #f4a261;
+    color: #333;
+}
+
+.section-5 {
+    background-color: #e76f51;
+}
+
+/* Élément d'image qui va se déplacer */
+#moving-image {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-image: url('./image/teteserpent.png');
+    /* Votre image de tête */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 101;
+    /* Au-dessus du SVG */
+    transform-origin: center;
+}
+
+/* SVG conteneur */
+#border-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Ne pas intercepter les événements de la souris */
+    z-index: 100;
+}
+
+/* Styles pour le contour SVG */
+#border-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Styles pour le tracé du contour */
+/* #border-path {
+    fill: none;
+    stroke: #951919;
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+} */
+#border-path {
+    fill: none;
+    stroke: url(#pattern);
+    /* Utilisation du motif défini dans le SVG */
+    stroke-width: 22;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}

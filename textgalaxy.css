@@ -32,7 +32,7 @@ footer h3 {
 }
 
 footer h4 {
-    font-size: 20px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding-top: 25px;
@@ -48,6 +48,15 @@ footer p {
 
 }
 
+.ican  {
+    justify-content: right;
+    justify-items: right;
+    padding-top: 60px;
+}
+.ican p {
+    font-size: 12px;
+}
+
 .nom {
     padding-top: 0;
     margin-top: 0;
@@ -56,7 +65,8 @@ footer p {
     grid-template-rows: 0;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
-    justify-items: left;
+    justify-items: center;
+    justify-content: center;
     }
     
     .enzo { 

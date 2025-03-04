@@ -1,0 +1,16 @@
+#particle-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1000vh;
+    height: 1000vh;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .particle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }

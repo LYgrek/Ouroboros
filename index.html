@@ -14,9 +14,11 @@
   <link rel="stylesheet" href="tarotcard.css">
   <link rel="stylesheet" href="glyphescard.css">
   <link rel="stylesheet" href="serpent.css">
+  <link rel="stylesheet" href="particules.css">
 </head>
 
 <body>
+  <div id="particle-container"></div>
   <div class="galaxie">
     <img class="galaxy" src="image/Galaxy.png">
     <p class="A">A</p>
@@ -98,7 +100,6 @@
     <p class="zz">z</p>
     <p class="YY">Y</p>
     <p class="ll">l</p>
-
     <p class="ZZ">Z</p>
   </div>
   <div class="textgalaxie">
@@ -133,27 +134,22 @@
         </div>
       </div>
     </div>
-
     <div class="mySlides fade">
       <div class="planets-bloc">
         <div>
           <model-viewer src="./3d-models/venus.glb" camera-controls alt="Venus" class="model"></model-viewer>
           <div class="text">Venus</div>
         </div>
-
         <div>
           <model-viewer src="./3d-models/mars.glb" camera-controls alt="Mars" class="model"></model-viewer>
           <div class="text">Mars</div>
         </div>
-
         <div>
           <model-viewer src="./3d-models/jupiter.glb" camera-controls alt="Jupiter" class="model"></model-viewer>
           <div class="text">Jupiter</div>
         </div>
       </div>
     </div>
-
-
     <div class="mySlides fade">
       <div class="planets-bloc">
         <div>
@@ -170,25 +166,20 @@
         </div>
       </div>
     </div>
-
-
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
   <br />
-
   <div style="text-align: center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
-
   <div class="textconstellation">
     <h2>Constellations</h2>
     <p>Ce sont des magnifiques constellations représentant tous les signes astrologiques avec les beaux caractères
       Ouroboros</p>
   </div>
-
   <div class="center">
     <div class="cercle1"></div>
     <div class="cercle2"></div>
@@ -199,7 +190,6 @@
   <div class="galaxie-center">
     <img class="ogalaxy" src="./image/O.png" alt="">
   </div>
-
   <div class="textcardtarot">
     <h2>Cartes de Tarot</h2>
   </div>
@@ -220,11 +210,9 @@
       conférant une esthétique à la fois ténébreuse et volumineuse. Son design puissant et ornemental en fait une
       police au fort impact visuel, idéale pour des compositions typographiques marquantes et expressives.</p>
   </div>
-
   <div class="textglyphescard">
     <h1>Glyphes</h1>
   </div>
-
   <div class="parent">
     <div class="item">
       <div class="glyph">🜞</div>
@@ -434,64 +422,28 @@
       </div>
     </div>
   </div>
-
   <div id="moving-image"></div>
-
-  <!-- Conteneur SVG pour le contour -->
-  <!-- <div id="border-container">
-      <svg id="border-svg" xmlns="http://www.w3.org/2000/svg">
-          <path id="border-path" d=""></path>
-      </svg>
-  </div> -->
-
-  <!-- Conteneur SVG avec le motif intégré -->
   <div id="border-container">
     <svg id="border-svg" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <!-- Définition du motif (pattern) -->
-        <!-- <pattern id="pattern" patternUnits="userSpaceOnUse" width="12" height="12">
-
-                  <rect width="12" height="12" fill="#951919" />
-
-                  <path d="M0,12 L12,0" stroke="#e3b331" stroke-width="3" />
-                  <path d="M12,12 L0,0" stroke="#e3b331" stroke-width="3" />
-              </pattern> -->
-
-
         <pattern id="pattern" width="6" height="6" patternTransform="rotate(40)scale(2)" patternUnits="userSpaceOnUse">
           <rect width="100%" height="100%" fill="#941919" />
           <path fill="#fa9129"
             d="M-10-10A10 10 0 0 0-20 0a10 10 0 0 0 10 10A10 10 0 0 1 0 0a10 10 0 0 0-10-10m20 0A10 10 0 0 0 0 0a10 10 0 0 1 10 10A10 10 0 0 1 20 0a10 10 0 0 0-10-10m20 0A10 10 0 0 0 20 0a10 10 0 0 1 10 10A10 10 0 0 1 40 0a10 10 0 0 0-10-10m-40 20a10 10 0 0 0-10 10 10 10 0 0 0 10 10A10 10 0 0 1 0 20a10 10 0 0 0-10-10m20 0A10 10 0 0 0 0 20a10 10 0 0 1 10 10 10 10 0 0 1 10-10 10 10 0 0 0-10-10m20 0a10 10 0 0 0-10 10 10 10 0 0 1 10 10 10 10 0 0 1 10-10 10 10 0 0 0-10-10" />
         </pattern>
-
         <rect width="800%" height="800%" fill="url(#a)" />
-
-
-
-
-
-
-
-
-
-
-
       </defs>
-      <!-- Le chemin sera dessiné dynamiquement par JavaScript -->
       <path id="border-path" d=""></path>
     </svg>
   </div>
-
-  <!-- Scripts GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="serpent.js"></script>
-
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
   <script src="./glyphes3d.js"></script>
   <script src="constellation.js"></script>
   <script src="glyphescard.js"></script>
-
+  <script src="particules.js"></script>
   <footer>
     <h3>Ouroboros</h3>
     <p>Faite par Ariel Martín Pérez, avec la collaboration de H·Alix Sanyas</p>
@@ -510,7 +462,5 @@
       </div>
     </div>
   </footer>
-
 </body>
-
 </html>

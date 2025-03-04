@@ -1,0 +1,196 @@
+
+:root {
+    --transition-speed: 0.2s ease-in-out;
+    --drop-shadow-light: drop-shadow(0 0 5px rgba(255, 255, 255, 1)) 
+                         drop-shadow(0 0 8px rgb(255, 255, 255))  
+                         drop-shadow(0 0 20px rgb(255, 255, 255)) 
+                         drop-shadow(0 0 30px rgb(255, 255, 255)) 
+                         drop-shadow(0 0 40px rgb(255, 255, 255))
+                         drop-shadow(0 0 100px rgb(255, 255, 255));
+    --drop-shadow-strong: drop-shadow(0 0 10px rgba(255, 255, 255, 0.571)) 
+                          drop-shadow(0 0 20px rgb(255, 255, 255));
+}
+
+/* Animation générale */
+.img-brillante,
+.image2 {
+    transition: var(--transition-speed);
+}
+
+/* Effet au survol, basé sur la classe active */
+.img-brillante:hover {
+    filter: var(--drop-shadow-light);
+}
+
+.image2:hover {
+    filter: var(--drop-shadow-strong);
+}
+
+.balance {
+    position: relative;
+    top: 226px;
+    width: 70px;
+    left: 25px;
+}
+.belier {
+    position: relative;
+    top: 16px;
+    width: 115px;
+    right: 5px;
+}
+.cancer {
+    position: relative;
+    top: 153px;
+    width: 60px;
+}
+.capricorne {
+    position: relative;
+    top: 81px;
+    width: 136px;
+    left: 20px;
+}
+.gemeaux {
+    position: relative;
+    top: 79px;
+    width: 84px;
+    right: 15px;
+}
+.lion {
+    position: relative;
+    top: 206px;
+    width: 92px;
+    left: 10px;
+}
+.poissons {
+    position: relative;
+    top: 6px;
+    width: 150px;
+}
+.sagittaire {
+    position: relative;
+    top: 164px;
+    width: 121px;
+    left: 25px;
+}
+.scorpion {
+    position: relative;
+    top: 212px;
+    width: 101px;
+    left: 40px;
+}
+.taureau {
+    position: relative;
+    top: 36px;
+    width: 102px;
+    right: 10px;
+}
+.verseau {
+    position: relative;
+    top: 21px;
+    width: 142px;
+    left: 25px;
+}
+.vierge {
+    position: relative;
+    top: 222px;
+    width: 106px;
+    left: 10px;
+}
+
+
+
+.center {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cercle1 {
+    width: 985px;
+    height: 348px;
+    border : 2px solid rgb(255, 255, 255);
+    border-radius: 99999%;
+    opacity: 30%;
+    /* background-color: #fff; */
+}
+
+.cercle2 {
+    width: 985px;
+    height: 348px;
+    border : 2px solid rgb(255, 255, 255);
+    border-radius: 99999%;
+    position: relative;
+    top: -215px;
+    opacity: 30%;
+    /* background-color: #fff; */
+}
+
+.cercle3 {
+    width: 403px;
+    height: 141px;
+    border : 2px solid rgb(255, 255, 255);
+    border-radius: 99999%;
+    position: relative;
+    top: -532px;
+    opacity: 30%;
+    /* background-color: #fff; */
+}
+
+.galaxie-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+
+.galaxie-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+}
+
+.ogalaxy {
+    filter: 
+    drop-shadow(0 0 5px rgba(255, 255, 255, 1)) 
+    drop-shadow(0 0 8px rgb(255, 255, 255))  
+            drop-shadow(0 0 20px rgba(255, 255, 255, 0.19)) 
+            drop-shadow(0 0 30px rgba(255, 255, 255, 0.174)) 
+            drop-shadow(0 0 40px rgba(255, 255, 255, 0.16))
+            drop-shadow(0 0 100px rgba(255, 255, 255, 0))
+
+            ;
+}
+
+.galaxie-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top :-60px;
+}
+
+.textconstellation{
+    padding-top: 75px;
+    padding-bottom: 50px;
+
+    color: white;
+
+}
+
+.textconstellation h2{
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: Ourobouros;
+    font-size: 48px;
+}
+
+.textconstellation p {
+    color: white;
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}

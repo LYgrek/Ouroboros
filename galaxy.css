@@ -1,0 +1,381 @@
+body{
+  background-color: #0A0A0A;
+  margin: 100px;
+}
+
+@font-face {
+  font-family: Ourobouros;
+  src: url("./fonts/Ouroboros-Regular.otf");
+}
+
+.galaxie p {
+  color: white;
+  margin-bottom: 0%;
+  margin-left: 44%;
+  transition: transform 0.5s ease;
+  width: fit-content;
+  position: absolute;
+  font-family: Ourobouros;
+}
+
+
+
+.galaxie p:hover {
+  transform: scale(5);
+}
+.galaxy {
+  position: absolute;
+  left: 44%;
+  top: 3.6%;
+}
+.A {
+  left: 9%;
+  top: 28%;
+}
+.s {
+  left: 5%;
+  top: 33%;
+}
+.b {
+  left: 8.5%;
+  top: 36%;
+}
+.one {
+  left: 3.2%;
+  top: 42%;
+}
+.d {
+  left: 6%;
+  top: 45%;
+}
+.E {
+  left: 2%;
+  top: 50%;
+}
+.G {
+  left: 2.2%;
+  top: 59%;
+}
+.O {
+  left: 4.5%;
+  top: 65%;
+}
+.I {
+  left: 2.2%;
+  top: 72%;
+}
+.five {
+  left: 2.2%;
+  top: 82%;
+}
+.U {
+  left: 6%;
+  top: 75%;
+}
+.l {
+  left: 8.8%;
+  top: 80%;
+}
+.K {
+  left: 5.3%;
+  top: 87.4%;
+}
+.n {
+  left: 11.8%;
+  top: 82%;
+}
+.M {
+  left: 9%;
+  top: 89%;
+}
+.four {
+  left: 14.6%;
+  top: 83.6%;
+}
+.L {
+  left: 18.4%;
+  top: 82.8%;
+}
+.eight {
+  left: 16.4%;
+  top: 90%;
+}
+.Y {
+  left: 17.8%;
+  top: 92%;
+}
+.o {
+  left: 19.8%;
+  top: 89%;
+}
+.uno {
+  left: 21.6%;
+  top: 90.2%;
+}
+.P {
+  left: 23.8%;
+  top: 79.8%;
+}
+.seven {
+  left: 25.2%;
+  top: 89%;
+}
+.ocho {
+  left: 27%;
+  top: 77%;
+}
+.q {
+  left: 28.4%;
+  top: 84.8%;
+}
+.R {
+  left: 30.6%;
+  top: 72.2%;
+}
+.three {
+  left: 31.8%;
+  top: 76.2%;
+}
+.g {
+  left: 34.8%;
+  top: 68%;
+}
+.C {
+  left: 36.2%;
+  top: 71%;
+}
+.T {
+  left: 35.6%;
+  top: 59.4%;
+}
+.H {
+  left: 39%;
+  top: 58%;
+}
+.u {
+  left: 41.6%;
+  top: 61%;
+}
+.six {
+  left: 39%;
+  top: 69%;
+}
+.nine {
+  left: 41.6%;
+  top: 51%;
+}
+.huit {
+  left: 43.4%;
+  top: 54.6%;
+}
+.cinco {
+  left: 43%;
+  top: 46%;
+}
+.w {
+  left: 44.6%;
+  top: 42%;
+}
+.qq {
+  left: 46%;
+  top: 46.6%;
+}
+.V {
+  left: 47%;
+  top: 38%;
+}
+.y {
+  left: 46.6%;
+  top: 32%;
+}
+.X {
+  left: 43.4%;
+  top: 32%;
+}
+.Z {
+  left: 44.6%;
+  top: 22%;
+}
+.two {
+  left: 48%;
+  top: 22%;
+}
+.w {
+  left: 43%;
+  top: 17%;
+}
+.h {
+  left: 41%;
+  top: 11%;
+}
+.J {
+  left: 45.8%;
+  top: 10.8%;
+}
+.LL {
+  left: 38.2%;
+  top: 12%;
+}
+.m {
+  left: 42%;
+  top: 6.6%;
+}
+.n {
+  left: 44%;
+  top: 5%;
+}
+.N {
+  left: 35.4%;
+  top: 11%;
+}
+.z {
+  left: 35.4%;
+  top: 6%;
+}
+.nueve {
+  left: 39%;
+  top: 4%;
+}
+.zero {
+  left: 32%;
+  top: 3%;
+}
+.i {
+  left: 30.4%;
+  top: 4.4%;
+}
+.k {
+  left: 30%;
+  top: 15%;
+}
+.seis {
+  left: 28%;
+  top: 6%;
+}
+.c {
+  left: 27.4%;
+  top: 10%;
+}
+.dos {
+  left: 24.8%;
+  top: 16.8%;
+}
+.p {
+  left: 20.2%;
+  top: 16%;
+}
+.a {
+  left: 21.2%;
+  top: 19%;
+}
+.mm {
+  left: 21.4%;
+  top: 23%;
+}
+.zz {
+  left: 16.6%;
+  top: 26.8%;
+}
+.siete {
+  left: 15.8%;
+  top: 34%;
+}
+.YY {
+  left: 17.8%;
+  top: 36.4%;
+}
+.x {
+  left: 13%;
+  top: 41%;
+}
+.W {
+  left: 16%;
+  top: 49.8%;
+}
+.t {
+  left: 18%;
+  top: 53.6%;
+}
+.v {
+  left: 12.6%;
+  top: 54%;
+}
+.j {
+  left: 14.6%;
+  top: 60%;
+}
+.S {
+  left: 19%;
+  top: 60%;
+}
+.r {
+  left: 24%;
+  top: 59%;
+}
+.ll {
+  left: 22.6%;
+  top: 65%;
+}
+.U {
+  left: 26%;
+  top: 62%;
+}
+.tres {
+  left: 27%;
+  top: 58%;
+}
+.Q {
+  left: 28.4%;
+  top: 55%;
+}
+.f {
+  left: 31%;
+  top: 56%;
+}
+.F {
+  left: 32.4%;
+  top: 49%;
+}.ZZ {
+  left: 36%;
+  top: 40%;
+}
+.D {
+  left: 32.6%;
+  top: 38%;
+}
+.e {
+  left: 35%;
+  top: 31%;
+}
+.roze {
+  left: 32%;
+  top: 28%;
+}
+.quatro {
+  left: 29%;
+  top: 27%;
+}
+.B {
+  left: 26%;
+  top: 34%;
+}
+
+@media (max-width: 1024px) {
+  .galaxy {
+    width: 80%; /* Réduit la taille sur les écrans moyens */
+  }
+}
+
+/* 📱 Ajustement pour mobile */
+@media (max-width: 768px) {
+  .galaxy {
+    width: 90%; /* Adapte la taille pour mobile */
+  }
+}
+
+/* 📱 Ajustement pour très petits écrans */
+@media (max-width: 480px) {
+  .galaxy {
+    width: 95%;
+  }
+}

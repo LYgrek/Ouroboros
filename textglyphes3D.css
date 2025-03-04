@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Ourobouros;
+    src: url("./fonts/Ouroboros-Regular.otf");
+}
+.textglyphes3d {
+    margin-top: 325px;
+}
+.textglyphes3d p {
+    color: white;
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.textglyphes3d h2 {
+    color: white;
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: Ourobouros;
+    font-size: 48px;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Ourobouros;
+    src: url("./fonts/Ouroboros-Regular.otf");
+}
+.textgalaxie {
+    margin-top:225px;
+}
+.textgalaxie p {
+    color: white;
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.textgalaxie h1 {
+    color: white;
+    text-align: left; /* Aligne le texte à gauche */
+    font-family: Ourobouros;
+    font-size: 86px;
+}

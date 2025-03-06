@@ -16,7 +16,8 @@
     color: white;
     text-align: left; /* Aligne le texte à gauche */
     font-family: Ourobouros;
-    font-size: 86px;
+    font-size: 72px;
+    letter-spacing: 2px;
 }
 
 footer {

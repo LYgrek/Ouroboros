@@ -184,6 +184,7 @@
     text-align: left; /* Aligne le texte à gauche */
     font-family: Ourobouros;
     font-size: 48px;
+    letter-spacing: 2px;
 }
 
 .textconstellation p {

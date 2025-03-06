@@ -44,44 +44,35 @@ footer p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
-    padding-top: 5px;
+    padding-top: 30px;
 
 }
 
-.ican  {
-    justify-content: right;
-    justify-items: right;
-    padding-top: 60px;
-}
-.ican p {
-    font-size: 12px;
+#retour {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	background: rgb(226, 193, 249);
+	background: radial-gradient(
+		circle,
+		rgba(226, 193, 249, 1) 0%,
+		rgba(240, 255, 250, 1) 25%,
+		rgba(251, 255, 228, 1) 50%,
+		rgba(254, 218, 251, 1) 75%,
+		rgba(226, 193, 249, 1) 100%
+	);
+	position: fixed;
+    top: 6%;
+    left: 3%;
+    opacity: 100%;
 }
 
-.nom {
-    padding-top: 0;
-    margin-top: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 175px);
-    grid-template-rows: 0;
-    grid-column-gap: 50px;
-    grid-row-gap: 0px;
-    justify-items: center;
-    justify-content: center;
-    }
-    
-    .enzo { 
-        grid-area: 1 / 1 / 2 / 2; 
-        justify-items: center;
-    }
-    .gabriela { 
-        grid-area: 1 / 2 / 2 / 3; 
-        justify-items: center;
-    }
-    .meysem { 
-        grid-area: 1 / 3 / 2 / 4;
-        justify-items: center;
-    }
-    .maina { 
-        grid-area: 1 / 4 / 2 / 5; 
-        justify-items: center;
-    }
+#retour a {
+	/*Ouroboros*/
+    font-family: Ouroboros;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000000;
+}

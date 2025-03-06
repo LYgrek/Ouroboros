@@ -1,0 +1,23 @@
+.content {
+    height: 2000px; /* Hauteur suffisante pour permettre le défilement */
+}
+
+#scrollTopBtn {
+    position: relative;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    padding: 10px 15px;
+    background-color: #4545452a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Ouroboros;
+    font-size: 20px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #ffffff6a;
+}

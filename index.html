@@ -15,12 +15,13 @@
   <link rel="stylesheet" href="glyphescard.css">
   <link rel="stylesheet" href="serpent.css">
   <link rel="stylesheet" href="particules.css">
+  <link rel="stylesheet" href="bottombutton.css">
 </head>
 
 <body>
   <div id="particle-container"></div>
   <div id="retour">
-    <a href="https://nicolastilly.github.io/typodriven1web/">retour</a>
+    <a href="https://nicolastilly.github.io/typodriven1web/">←</a>
   </div>
   <div class="galaxie">
     <img class="galaxy" src="image/Galaxy.png">
@@ -442,6 +443,15 @@
       <path id="border-path" d=""></path>
     </svg>
   </div>
+
+  <div class="bottombutton">
+    <!-- Contenu de la page pour permettre le défilement -->
+    <p>Faites défiler vers le bas...</p>
+    <p>Contenu de la page...</p>
+  </div>
+  <button id="scrollTopBtn">↑</button>
+
+  <script src="bottombutton.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="serpent.js"></script>

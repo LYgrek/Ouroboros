@@ -4,7 +4,7 @@
 
 #scrollTopBtn {
     position: relative;
-    bottom: 20px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: none;
@@ -20,4 +20,8 @@
 
 #scrollTopBtn:hover {
     background-color: #951919;
+}
+
+.bottombutton {
+    padding-top: 50px;
 }

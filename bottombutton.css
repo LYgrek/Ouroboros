@@ -9,7 +9,7 @@
     transform: translateX(-50%);
     display: none;
     padding: 10px 15px;
-    background-color: #4545452a;
+    background-color: rgb(17, 17, 17);
     color: white;
     border: none;
     border-radius: 5px;
@@ -19,5 +19,5 @@
 }
 
 #scrollTopBtn:hover {
-    background-color: #ffffff6a;
+    background-color: #951919;
 }

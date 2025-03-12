@@ -1,0 +1,30 @@
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #951919;
+}
+
+
+#downloadButton {
+    align-self: flex-end; /* Aligne le bouton à droite dans le conteneur */
+    margin-top: 20px; /* Ajoute un espace en haut du bouton */
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between; /* Aligne le texte à gauche et le bouton à droite */
+    align-items: flex-start; /* Aligne les éléments au début du conteneur */
+    width: 100%; /* Assurez-vous que le conteneur prend toute la largeur disponible */
+}
+
+.text-foot {
+    max-width: 70%; /* Limite la largeur du texte pour laisser de la place au bouton */
+}
